@@ -4,21 +4,110 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 40vmin;
+  pointer-events: none;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-intro {
-  font-size: large;
+.App-link {
+  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
+
+
+.img-fluid{
+    width: 100%;
+    height: 100%;
+    float:left;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.page{
+    background-image: url('./images/pageBackground.jpg');
+    width: 1100px;
+    height: 740px;
+    margin: auto;
+    margin-top: 55px;
+    object-fit: fill;
+    border-radius: 15px;
+    margin-bottom: -58px
+}
+.Title{
+  margin-top: -20px;
+  font-family: 'Rajdhani', sans-serif;
+
+}
+.myName{
+  padding-left: 100px;
+}
+.jumbotron{
+    background-color: white;
+    border-radius: 0px;
+    height: 125px;
+
+}
+.margin-top{
+  margin-top: 50px;
+  margin-bottom: 0px 
+}
+.container{
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+#profileImg{
+    height: 300px;
+    width: auto;
+    opacity: 1.0;
+    margin-top: 50px
+}
+#navbar{
+    background-color: yellow;
+    width: 45%;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    left: 200px;
+    font-family: 'Rajdhani', sans-serif;
+}
+#page{
+    color: black;
+}
+#page:hover {
+    color: red;
+}
+#page:active {
+    color: red;
+}
+#project1{
+    width: 400px;
+    height: 250px;
+
+}
+.push-right{
+  margin-left: 35%;
+}
+
