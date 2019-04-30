@@ -26,5 +26,17 @@
     "mysql2": "^1.6.5",
     "react": "^16.8.6",
     "sequelize": "^5.2.6"
-  }
+  },
+  "engines": {
+    "node": "11.6.0",
+    "npm": "6.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andre2656/My-Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andre2656/My-Portfolio/issues"
+  },
+  "homepage": "https://github.com/andre2656/My-Portfolio#readme"
 }
