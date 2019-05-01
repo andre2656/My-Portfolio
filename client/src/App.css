@@ -64,7 +64,8 @@ body{
 .jumbotron{
     background-color: white;
     border-radius: 0px;
-    height: 125px;
+    height:55px;
+    padding-top: 40px
 
 }
 .margin-top{
@@ -110,4 +111,6 @@ body{
 .push-right{
   margin-left: 35%;
 }
-
+.row{
+  margin: auto;
+}

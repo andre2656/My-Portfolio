@@ -6,6 +6,9 @@ import MainBody from './components/mainBody'
 import Contact from './components/Contact'
 import Footer from './components/footer'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Bio from './components/Bio';
+import MyWork from './components/MyWork';
+
 class App extends Component {
   render() {
     return (
@@ -17,10 +20,11 @@ class App extends Component {
           <div className='Navbar'>
             <Navbar />
           </div>
-          <div className='MainBody'>
+          <div>
             <Route exact path="/" component={MainBody} />
-            {/* <Route exact path="/Home" component={Home} />
-            <Route exact path="/About" component={About} /> */}
+            <Route exact path="/Bio" component={Bio} />
+            <Route exact path="/Work" component={MyWork} />
+            <Route exact path="/Contact" component={Contact}/>
           </div>
           <div className='Footer'>
             <Footer />

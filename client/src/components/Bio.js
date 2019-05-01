@@ -3,7 +3,7 @@ import React from "react";
 function Bio() {
     return (
         <div>
-            <div className='page'>
+            <div className='Bio-page'>
                 <div className='container'>
                     <div className='row'>
                         <div id="image" className='col-sm mx-auto'>
