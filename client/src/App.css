@@ -114,3 +114,19 @@ body{
 .row{
   margin: auto;
 }
+#bio{
+  margin-top: 50px; 
+  padding: 10px;
+  background-color: #17479e;
+  color: white;
+  border-radius: 5px;
+}
+#profileImg{
+  padding: 20px;
+  background-color: #0aa245;
+  height: 100%;
+  max-height: 300px;
+  width: auto;
+  border-radius: 5px;
+
+}
