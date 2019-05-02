@@ -7,7 +7,7 @@ function Bio() {
                 <div className='container'>
                     <div className='row'>
                         <section id="bio" className= 'col-md-7'>
-                            <strong><h3>Bio:</h3></strong>
+                            <strong><h3>Bio</h3></strong>
                                 <p>
                                     I am a full-stack developer with a focus on React.
                                     I live in Salt Lake City, Utah and Irvine, California.
