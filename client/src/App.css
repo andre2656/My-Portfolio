@@ -53,6 +53,15 @@ body{
     border-radius: 15px;
     margin-bottom: -58px
 }
+.Bio-page{
+    background-image: url('./images/bioImage.jpg');
+    width: 1000;
+    height: 850px;
+    background-size: fill;
+    background-repeat: no-repeat;
+    margin-top: -62px;
+     
+}
 .Title{
   margin-top: -20px;
   font-family: 'Rajdhani', sans-serif;
@@ -115,22 +124,23 @@ body{
   margin: auto;
 }
 #bio{
-  margin-top: 50px; 
-  padding: 10px;
+  margin-top: 150px; 
+  padding: 15px;
   background-color: #17479e;
   color: white;
   border-radius: 5px;
   overflow: scroll;
   height: 650px;
+  border: 10px solid white;
 }
 #profileImg{
-  padding: 15px;
+  padding: 10px;
   background-color: #0aa245;
   height: auto;
   max-height: 400px;
   width: auto;
   border-radius: 5px;
-  margin-top: 33%;
+  margin-top: 50%;
   margin-left: 50px;
 }
 #sideImg1{
