@@ -6,7 +6,7 @@ function Bio() {
             <div className='Bio-page'>
                 <div className='container'>
                     <div className='row'>
-                        <section id="bio" className= 'col-md-8'>
+                        <section id="bio" className= 'col-md-7'>
                             <strong><h3>Bio:</h3></strong>
                                 <p>
                                     I am a full-stack developer with a focus on React.
@@ -37,8 +37,11 @@ function Bio() {
                                     Wherever I end up I will make an impact on this earth and to the individuals surrounding me.
                             </p>
                         </section>
-                        <div id="bioImage" className='col-md-4'>
-                            <img id='profileImg' src="../images/IMG_1531.jpeg" alt="A.C." />
+                        <div id="bioImage" className='col-md-5'>
+                            <img className='col-md-9' id='profileImg' src="../images/IMG_1531.jpeg" alt="A.C." />
+                                <img className='col-md-3' id='sideImg1' src="../images/sidePic1.jpg" alt="A.C." />
+                                <img className='col-md-3' id='sideImg2' src="../images/sidePic2.jpg" alt="A.C." />
+                                <img className='col-md-3' id='sideImg3' src="../images/sidePic3.jpg" alt="A.C." />
                         </div>
                     </div> 
                 </div>
