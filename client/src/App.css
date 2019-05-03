@@ -102,6 +102,7 @@ body{
     position: relative;
     left: 200px;
     font-family: 'Rajdhani', sans-serif;
+    z-index: 1 !important;
 }
 #page{
     color: black;
