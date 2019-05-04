@@ -133,6 +133,7 @@ body{
   overflow: scroll;
   height: 650px;
   border: 10px solid black;
+  text-align: left
 }
 #profileImg{
   padding: 10px;
@@ -171,6 +172,22 @@ body{
   margin-left: 45px;
   padding: 5px;
   background-color: #fff200;
-   border-radius: 5px;
+  border-radius: 5px;
   margin-top: 10px
+}
+.MyWorkCorousel{
+  width: auto;
+  height: 100%;
+  max-height: 350px;
+  margin-top: 100px
+}
+#theCloset{
+  background-color: white;
+  padding: 10px;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: #fff200 10px solid;
+  border-bottom: #fff200 10px solid;
+  border-radius: 20px;
+  padding-left: 10px;
 }
