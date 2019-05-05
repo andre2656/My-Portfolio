@@ -1,9 +1,5 @@
 import React from "react";
-import $ from 'jquery'
 function Bio() {
-    $('.carousel').carousel({
-        interval: 2000
-    })
     return (
         <div>
             <div className='Bio-page'>
