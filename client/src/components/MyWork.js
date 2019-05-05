@@ -1,7 +1,5 @@
 import React from 'react';
-import $ from 'jquery'
 const MyWork = () => {
-    
     return (
         <div>
             <h3>My Work</h3>
@@ -15,31 +13,31 @@ const MyWork = () => {
                                 <div className="carousel-item active">
                                     <img className='MyWorkCorousel' src="../images/marketing.jpg" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
+                                        <h5 className= 'closetCarouselCap'>Marketing Site</h5>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img className='MyWorkCorousel' src="../images/SignUp.jpg" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
+                                        <h5 className='closetCarouselCap'>SignUp</h5>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img className='MyWorkCorousel' src="../images/settings.jpg" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
+                                        <h5 className='closetCarouselCap'>Settings</h5>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img className='MyWorkCorousel' src="../images/chatImg.jpg" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
+                                        <h5 className='closetCarouselCap'>Chat</h5>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img className='MyWorkCorousel' src="../images/APIimg.jpg" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
+                                        <h5 className='closetCarouselCap'>API's</h5>
                                     </div>
                                 </div>
                             </div>
@@ -83,31 +81,31 @@ const MyWork = () => {
                                 <div className="carousel-item active">
                                     <img className='MyWorkCorousel' src="../images/Login.jpg" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
+                                        <h5 className='faceCarouselCap'>Login</h5>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img className='MyWorkCorousel' src="../images/VideoCode.jpg" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
+                                        <h5 className= 'faceCarouselCap'>Video Code</h5>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img className='MyWorkCorousel' src="../images/Routes.jpg" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
+                                        <h5 className= 'faceCarouselCap'>Routes Code</h5>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img className='MyWorkCorousel' src="../images/App.jpg" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
+                                        <h5 className='faceCarouselCap'>App Code</h5>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img className='MyWorkCorousel' src="../images/Tabel.jpg" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
+                                        <h5 className='faceCarouselCap'>Sequelize Code</h5>
                                     </div>
                                 </div>
                             </div>
@@ -123,38 +121,38 @@ const MyWork = () => {
                                 <div className="carousel-item active">
                                     <img className='MyWorkCorousel' src="../images/Dashboard.jpg" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
+                                        <h5 className='betCarouselCap'>Dashboard</h5>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img className='MyWorkCorousel' src="../images/Score.jpg" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
+                                        <h5 className='betCarouselCap'>Score</h5>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img className='MyWorkCorousel' src="../images/Ranking.jpg" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
+                                        <h5 className='betCarouselCap'>Ranking Code</h5>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img className='MyWorkCorousel' src="../images/Css.jpg" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
+                                        <h5 className='betCarouselCap'>CSS Code</h5>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img className='MyWorkCorousel' src="../images/TeamRanking.jpg" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
+                                        <h5 className='betCarouselCap'>Team Ranking Code</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className='col-md-7'>
-                        <p> FaceDatabase an Express app <br />
+                        <p> Bet Buddy <br />
                             The Closet makes it easy to curate a style that's 100% you effortlessly! <br />
                             I worked with two other collegues on this project.<br />
                             My work included: <br />
