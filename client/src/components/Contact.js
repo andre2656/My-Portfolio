@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
     return (
-        <div>
+        <div id= 'contact'>
             <div className='contatainer'>
                 {/* <section id="contact" className='col-sm'>
                     
