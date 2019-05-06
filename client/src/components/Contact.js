@@ -18,15 +18,14 @@ function Header() {
                     <div className='col-md-12'>
                         <div className='row'>
                             <div className='col-md-2' />
-                            <div className="card col-md-3" style={{ width: "16rem", margin: '10px', backgroundColor: '#414099' }}>
-                                <img className="card-img-top" src="../images/EmailLogo.jpg" alt="Email" style={{ heigh: '100px', width: '100%'}} />
+                            <div className="card col-md-3" style={{ width: "16rem", height: '100px', margin: '10px', backgroundColor: '#414099' }}>
                                 <div className="card-body">
                                     <h6 className="card-text"><h4><strong>Email</strong></h4> <a href='mailto:andre2656@gmail.com' style={{ color: 'yellow', fontWeight: 'bold'}}> andre2656@gmail.com</a></h6>
                                 </div>
                             </div>
                             <div className='col-md-1' />
-                            <div className="card col-md-3" style={{ width: "16rem", margin: '10px', backgroundColor: '#00755c' }}>
-                                <img className="card-img-top" src="./images/PhoneLogo.jpg" alt="Phone" />
+                            <div className="card col-md-3" style={{ width: "16rem", height: '100px', margin: '10px', backgroundColor: '#00755c' }}>
+                                
                                 <div className="card-body">
                                     <h6 className="card-text"><h4><strong>Phone</strong></h4> <a href='#' style={{ color: '#00addc', fontWeight: 'bold' }}> (714) 803-2687</a></h6>
                                 </div>
@@ -35,15 +34,13 @@ function Header() {
                            </div>
                            <div className= 'row'> 
                             <div className='col-md-3' />
-                            <div className="card col-md-3" style={{ width: "16rem", margin: '10px', backgroundColor: '#ef4123' }}>
-                                <img className="card-img-top" src= "./images/GithubLogo.jpg" alt="Github" />
+                            <div className="card col-md-3" style={{ width: "16rem", margin: '10px', height: '100px', backgroundColor: '#ef4123' }}>
                                 <div className="card-body">
                                     <h6 className="card-text"><h4><strong>Github</strong></h4> <a href='https://github.com/andre2656' target='_blank' style={{ color: '#ffffff', fontWeight: 'bold' }}>andre2656</a></h6>
                                 </div>
                             </div>
                             <div className='col-md-1' />
-                            <div className="card col-md-3" style={{ width: "16rem", margin: '10px', backgroundColor: '#00addc' }}>
-                                <img className="card-img-top" src="./images/LinkedInLogo.jpg" alt="LinkedIn" />
+                            <div className="card col-md-3" style={{ width: "16rem", margin: '10px', height: '100px', backgroundColor: '#00addc' }}>
                                 <div className="card-body">
                                     <h6 className="card-text"><h4><strong>LinkedIn</strong></h4><a href='https://www.linkedin.com/in/andrecampbell-dev/' target='_blank' style={{ color: 'yellow', fontWeight: 'bold' }}> Andre Campbell</a></h6>
                                 </div>
