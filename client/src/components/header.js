@@ -11,11 +11,7 @@ function Header() {
                         <div className='row'>
                             <h3 className= 'myName'>By: Andre Campbell</h3>
                         </div>
-                        <div className='row' style={{ height: 5, width: '100%', backgroundColor: 'yellow' }}>
-
-                        </div>
                     </div>
-                    
                 </div>
             </div>
     );
